@@ -1,0 +1,13 @@
+public class factorialmain 
+{
+
+	public static void main(String[] args) 
+{
+		
+	factorial fobj= new  factorial ();
+	  fobj.fact();
+
+
+}
+
+}
