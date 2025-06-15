@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class factorial 
+{
+	Scanner Sc = new Scanner(System.in);
+	public void fact() 
+     {
+	System.out.print("enter any number for factorial:");
+	int n= Sc.nextInt();
+	int i,result;
+	result=1;
+	for(i=1;i<=n;i++)
+	{
+		result=result*i;
+		System.out.print("\nFactorial of "+n+"is:"+result);
+		
+	}
+
+      }
+}
+ 
+ 
